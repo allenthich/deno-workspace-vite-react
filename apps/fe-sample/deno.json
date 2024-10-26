@@ -1,5 +1,5 @@
 {
-  "name": "@jgo/fe-sample",
+  "name": "@scope/fe-sample",
   "version": "1.0.0",
   "exports":"./index.js",
   "tasks": {

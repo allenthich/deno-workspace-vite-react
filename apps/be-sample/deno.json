@@ -1,5 +1,5 @@
 {
-  "name": "@jgo/be-sample",
+  "name": "@scope/be-sample",
   "version": "1.0.0",
   "exports": "./main.ts",
   "imports": {
