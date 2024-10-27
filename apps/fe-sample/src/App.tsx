@@ -1,5 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import { addPetMutationKey } from "@libs/pets";
 import "./App.css";
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more{JSON.stringify(
+          addPetMutationKey(),
+        )}
       </p>
     </>
   );

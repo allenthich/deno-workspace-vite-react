@@ -17,6 +17,7 @@
   },
   "nodeModulesDir": "auto",
   "imports": {
+    "@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
     "@kubb/core": "npm:@kubb/core@3.0.0-beta.9",
     "@kubb/plugin-client": "npm:@kubb/plugin-client@3.0.0-beta.9",
     "@kubb/plugin-oas": "npm:@kubb/plugin-oas@3.0.0-beta.9",
