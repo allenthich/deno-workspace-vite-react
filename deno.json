@@ -2,11 +2,13 @@
   "tasks": {
     "generate": "deno run -A npm:kubb@3.0.0-beta.9 generate"
   },
-  "workspace": [
+  "workspace": {
+    "members": [
       "apps/be-sample",
       "apps/fe-sample",
       "libs/pets"
-  ],
+    ]
+},
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"],
     "jsx": "react-jsx",
@@ -16,9 +18,13 @@
   "nodeModulesDir": "auto",
   "imports": {
     "@kubb/core": "npm:@kubb/core@3.0.0-beta.9",
+    "@kubb/plugin-client": "npm:@kubb/plugin-client@3.0.0-beta.9",
     "@kubb/plugin-oas": "npm:@kubb/plugin-oas@3.0.0-beta.9",
     "@kubb/plugin-react-query": "npm:@kubb/plugin-react-query@3.0.0-beta.9",
     "@kubb/plugin-ts": "npm:@kubb/plugin-ts@3.0.0-beta.9",
-    "@kubb/plugin-zod": "npm:@kubb/plugin-zod@3.0.0-beta.9"
+    "@kubb/plugin-zod": "npm:@kubb/plugin-zod@3.0.0-beta.9",
+    "@tanstack/react-query": "npm:@tanstack/react-query@^5.59.16",
+    "axios": "npm:axios@^1.7.7",
+    "zod": "npm:zod@^3.23.8"
   }
 }
