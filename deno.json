@@ -1,10 +1,4 @@
 {
-  "tasks": {
-    "generate": "cd libs/pets && deno task gen:pets",
-    "start": "cd apps/be-sample && deno task start",
-    "dev": "cd apps/fe-sample && deno task dev",
-    "build": "cd apps/fe-sample && deno task build"
-  },
   "workspace": [
     "apps/be-sample",
     "apps/fe-sample",

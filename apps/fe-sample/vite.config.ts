@@ -6,6 +6,15 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [deno(), react(), tsconfigPaths({ ignoreConfigErrors: true })],
+  plugins: [
+    deno(),
+    react(),
+    tsconfigPaths({
+      root: "./",
+      projects: [
+        "./tsconfig.json",
+      ],
+    }),
+  ],
   cacheDir: "../../node_modules/.vite",
 });
