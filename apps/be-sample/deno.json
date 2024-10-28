@@ -2,9 +2,6 @@
   "name": "@scope/be-sample",
   "version": "1.0.0",
   "exports": "./main.ts",
-  "imports": {
-    "hono": "jsr:@hono/hono@^4.6.7"
-  },
   "tasks": {
     "start": "deno run -A --watch main.ts"
   }

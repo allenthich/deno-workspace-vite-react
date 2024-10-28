@@ -1,16 +1,22 @@
 {
   "tasks": {
-    "generate": "deno run -A npm:kubb@3.0.0-beta.9 generate"
+    "generate": "cd libs/pets && deno task gen:pets",
+    "start": "cd apps/be-sample && deno task start",
+    "dev": "cd apps/fe-sample && deno task dev",
+    "build": "cd apps/fe-sample && deno task build"
   },
-  "workspace": {
-    "members": [
-      "apps/be-sample",
-      "apps/fe-sample",
-      "libs/pets"
-    ]
-},
+  "workspace": [
+    "apps/be-sample",
+    "apps/fe-sample",
+    "libs/pets"
+  ],
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "npm:react@^18.3",
     "jsxImportSourceTypes": "npm:@types/react@^18.3"
@@ -18,14 +24,29 @@
   "nodeModulesDir": "auto",
   "imports": {
     "@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
+    "@eslint/js": "npm:@eslint/js@^9.13.0",
+    "@hono/hono": "jsr:@hono/hono@^4.6.7",
     "@kubb/core": "npm:@kubb/core@3.0.0-beta.9",
     "@kubb/plugin-client": "npm:@kubb/plugin-client@3.0.0-beta.9",
     "@kubb/plugin-oas": "npm:@kubb/plugin-oas@3.0.0-beta.9",
     "@kubb/plugin-react-query": "npm:@kubb/plugin-react-query@3.0.0-beta.9",
     "@kubb/plugin-ts": "npm:@kubb/plugin-ts@3.0.0-beta.9",
     "@kubb/plugin-zod": "npm:@kubb/plugin-zod@3.0.0-beta.9",
+    "@rsm-hcd/spino": "jsr:@rsm-hcd/spino@^0.3.2",
     "@tanstack/react-query": "npm:@tanstack/react-query@^5.59.16",
+    "@types/react": "npm:@types/react@^18.3.12",
+    "@types/react-dom": "npm:@types/react-dom@^18.3.1",
+    "@vitejs/plugin-react-swc": "npm:@vitejs/plugin-react-swc@^3.7.1",
     "axios": "npm:axios@^1.7.7",
+    "eslint": "npm:eslint@^9.13.0",
+    "eslint-plugin-react-hooks": "npm:eslint-plugin-react-hooks@^5.0.0",
+    "eslint-plugin-react-refresh": "npm:eslint-plugin-react-refresh@^0.4.14",
+    "globals": "npm:globals@^15.11.0",
+    "react": "npm:react@^18.3.1",
+    "react-dom": "npm:react-dom@^18.3.1",
+    "typescript": "npm:typescript@^5.6.3",
+    "typescript-eslint": "npm:typescript-eslint@^8.11.0",
+    "vite": "npm:vite@^5.4.10",
     "vite-tsconfig-paths": "npm:vite-tsconfig-paths@^5.0.1",
     "zod": "npm:zod@^3.23.8"
   }
