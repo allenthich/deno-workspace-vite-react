@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@libs/pets": ["../../libs/pets/gen/index.ts"]
+        }
+    }
+}

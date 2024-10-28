@@ -1,6 +1,13 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+
+// Works without requiring tsconfig & vite plugin, tsConfigPaths
+// import { addPetMutationKey } from "../../../libs/pets/gen/index.ts";
+
+// Requires tsconfig & vite plugin, tsConfigPaths
 import { addPetMutationKey } from "@libs/pets";
+import { createUserMutationKey } from "@libs/pets";
+
 import "./App.css";
 
 function App() {
@@ -26,8 +33,12 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more{JSON.stringify(
+        addPetMutationKey: {JSON.stringify(
           addPetMutationKey(),
+        )}
+        <br />
+        createUserMutationKey: {JSON.stringify(
+          createUserMutationKey(),
         )}
       </p>
     </>
