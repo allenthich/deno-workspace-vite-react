@@ -2,6 +2,7 @@
   "workspace": [
     "apps/be-sample",
     "apps/fe-sample",
+    "apps/swagger",
     "libs/pets"
   ],
   "compilerOptions": {
@@ -27,6 +28,8 @@
     "@kubb/plugin-ts": "npm:@kubb/plugin-ts@3.0.0-beta.9",
     "@kubb/plugin-zod": "npm:@kubb/plugin-zod@3.0.0-beta.9",
     "@rsm-hcd/spino": "jsr:@rsm-hcd/spino@^0.3.2",
+    "@std/path": "jsr:@std/path@^1.0.7",
+    "@std/yaml": "jsr:@std/yaml@^1.0.5",
     "@tanstack/react-query": "npm:@tanstack/react-query@^5.59.16",
     "@types/react": "npm:@types/react@^18.3.12",
     "@types/react-dom": "npm:@types/react-dom@^18.3.1",
@@ -38,6 +41,7 @@
     "globals": "npm:globals@^15.11.0",
     "react": "npm:react@^18.3.1",
     "react-dom": "npm:react-dom@^18.3.1",
+    "swagger-ui-dist": "npm:swagger-ui-dist@^5.17.14",
     "typescript": "npm:typescript@^5.6.3",
     "typescript-eslint": "npm:typescript-eslint@^8.11.0",
     "vite": "npm:vite@^5.4.10",

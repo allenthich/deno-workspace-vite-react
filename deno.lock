@@ -6,9 +6,12 @@
     "jsr:@std/cli@1": "1.0.6",
     "jsr:@std/fmt@1": "1.0.3",
     "jsr:@std/fs@1": "1.0.5",
+    "jsr:@std/path@*": "1.0.7",
     "jsr:@std/path@1": "1.0.7",
     "jsr:@std/path@^1.0.7": "1.0.7",
     "jsr:@std/streams@1": "1.0.7",
+    "jsr:@std/yaml@*": "1.0.5",
+    "jsr:@std/yaml@^1.0.5": "1.0.5",
     "npm:@deno/vite-plugin@1": "1.0.0_vite@5.4.10",
     "npm:@eslint/js@^9.13.0": "9.13.0",
     "npm:@kubb/core@3.0.0-beta.9": "3.0.0-beta.9",
@@ -20,6 +23,7 @@
     "npm:@tanstack/react-query@^5.59.16": "5.59.16_react@18.3.1",
     "npm:@types/node@*": "22.5.4",
     "npm:@types/react-dom@^18.3.1": "18.3.1",
+    "npm:@types/react@^18.3.0": "18.3.12",
     "npm:@types/react@^18.3.12": "18.3.12",
     "npm:@vitejs/plugin-react-swc@^3.7.1": "3.7.1_vite@5.4.10",
     "npm:axios@^1.7.7": "1.7.7",
@@ -31,6 +35,7 @@
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react@^18.3.0": "18.3.1",
     "npm:react@^18.3.1": "18.3.1",
+    "npm:swagger-ui-dist@^5.17.14": "5.17.14",
     "npm:typescript-eslint@^8.11.0": "8.11.0_@typescript-eslint+parser@8.11.0__eslint@9.13.0__typescript@5.6.3_eslint@9.13.0_typescript@5.6.3",
     "npm:typescript@^5.6.3": "5.6.3",
     "npm:vite-tsconfig-paths@*": "5.0.1_vite@5.4.10__@types+node@22.5.4_typescript@5.6.3_@types+node@22.5.4",
@@ -70,6 +75,9 @@
     },
     "@std/streams@1.0.7": {
       "integrity": "1a93917ca0c58c01b2bfb93647189229b1702677f169b6fb61ad6241cd2e499b"
+    },
+    "@std/yaml@1.0.5": {
+      "integrity": "71ba3d334305ee2149391931508b2c293a8490f94a337eef3a09cade1a2a2742"
     }
   },
   "npm": {
@@ -2072,6 +2080,9 @@
         "has-flag"
       ]
     },
+    "swagger-ui-dist@5.17.14": {
+      "integrity": "sha512-CVbSfaLpstV65OnSjbXfVd6Sta3q3F7Cj/yYuvHMp1P90LztOLs6PfUnKEVAeiIVQt9u2SaPwv0LiH/OyMjHRw=="
+    },
     "swagger2openapi@7.0.8": {
       "integrity": "sha512-upi/0ZGkYgEcLeGieoz8gT74oWHA0E7JivX7aN9mAf+Tc7BQoRBvnIGHoPDw+f9TXTW4s6kGYCZJtauP6OYp7g==",
       "dependencies": [
@@ -2302,6 +2313,8 @@
     "dependencies": [
       "jsr:@hono/hono@^4.6.7",
       "jsr:@rsm-hcd/spino@~0.3.2",
+      "jsr:@std/path@^1.0.7",
+      "jsr:@std/yaml@^1.0.5",
       "npm:@deno/vite-plugin@1",
       "npm:@eslint/js@^9.13.0",
       "npm:@kubb/core@3.0.0-beta.9",
@@ -2321,6 +2334,7 @@
       "npm:globals@^15.11.0",
       "npm:react-dom@^18.3.1",
       "npm:react@^18.3.1",
+      "npm:swagger-ui-dist@^5.17.14",
       "npm:typescript-eslint@^8.11.0",
       "npm:typescript@^5.6.3",
       "npm:vite-tsconfig-paths@^5.0.1",
