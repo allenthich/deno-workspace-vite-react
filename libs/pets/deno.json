@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "exports": "./gen/index.ts",
     "tasks": {
-      "gen:pets": "deno run -A npm:kubb@3.0.0-beta.9 generate"
+      "gen:pets": "deno run -A npm:kubb@3.0.0-beta.10 generate"
     }
   }
   
