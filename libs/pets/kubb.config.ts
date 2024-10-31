@@ -1,4 +1,5 @@
 import { defineConfig } from "@kubb/core";
+import { pluginMsw } from "@kubb/plugin-msw";
 import { pluginOas } from "@kubb/plugin-oas";
 import { pluginReactQuery } from "@kubb/plugin-react-query";
 import { pluginTs } from "@kubb/plugin-ts";
@@ -18,6 +19,7 @@ export default defineConfig(() => {
                 pluginOas({}),
                 pluginTs({}),
                 pluginReactQuery({}),
+                pluginMsw({}),
                 pluginZod({
                     output: {
                         path: "./zod",
