@@ -2627,6 +2627,7 @@
       "npm:eslint-plugin-react-refresh@~0.4.14",
       "npm:eslint@^9.13.0",
       "npm:globals@^15.11.0",
+      "npm:msw@^2.6.0",
       "npm:react-dom@^18.3.1",
       "npm:react@^18.3.1",
       "npm:typescript-eslint@^8.11.0",
