@@ -14,6 +14,7 @@
     "jsr:@std/yaml@^1.0.5": "1.0.5",
     "npm:@deno/vite-plugin@1": "1.0.0_vite@5.4.10",
     "npm:@eslint/js@^9.13.0": "9.13.0",
+    "npm:@faker-js/faker@^9.1.0": "9.1.0",
     "npm:@hono/swagger-ui@~0.4.1": "0.4.1_hono@4.6.7",
     "npm:@kubb/core@3.0.0-beta.10": "3.0.0-beta.10",
     "npm:@kubb/core@3.0.0-beta.9": "3.0.0-beta.9",
@@ -37,6 +38,7 @@
     "npm:kubb@3.0.0-beta.10": "3.0.0-beta.10_typescript@5.6.3",
     "npm:kubb@3.0.0-beta.9": "3.0.0-beta.9_typescript@5.6.3",
     "npm:msw@^2.6.0": "2.6.0_typescript@5.6.3_@types+node@22.5.4",
+    "npm:orval@*": "7.2.0_typescript@5.6.3",
     "npm:orval@^7.2.0": "7.2.0_typescript@5.6.3",
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react@^18.3.0": "18.3.1",
@@ -351,6 +353,9 @@
     },
     "@exodus/schemasafe@1.3.0": {
       "integrity": "sha512-5Aap/GaRupgNx/feGBwLLTVv8OQFfv3pq2lPRzPg9R+IOBnDgghTGW7l7EuVXOvg5cc/xSAlRW8rBrjIC3Nvqw=="
+    },
+    "@faker-js/faker@9.1.0": {
+      "integrity": "sha512-GJvX9iM9PBtKScJVlXQ0tWpihK3i0pha/XAhzQa1hPK/ILLa1Wq3I63Ij7lRtqTwmdTxRCyrUhLC5Sly9SLbug=="
     },
     "@hono/swagger-ui@0.4.1_hono@4.6.7": {
       "integrity": "sha512-kPaJatHffeYQ3yVkHo878hCqwfapqx54FczJVJ+eRWt8J4biyVVMIdCAJb6MyA8bcnHUoTmUpPc7OJAV1VTg2g==",
@@ -3793,6 +3798,7 @@
       "jsr:@std/yaml@^1.0.5",
       "npm:@deno/vite-plugin@1",
       "npm:@eslint/js@^9.13.0",
+      "npm:@faker-js/faker@^9.1.0",
       "npm:@hono/swagger-ui@~0.4.1",
       "npm:@kubb/core@3.0.0-beta.10",
       "npm:@kubb/plugin-client@3.0.0-beta.10",
@@ -3811,6 +3817,7 @@
       "npm:eslint@^9.13.0",
       "npm:globals@^15.11.0",
       "npm:msw@^2.6.0",
+      "npm:orval@^7.2.0",
       "npm:react-dom@^18.3.1",
       "npm:react@^18.3.1",
       "npm:typescript-eslint@^8.11.0",

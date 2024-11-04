@@ -3,7 +3,8 @@
     "apps/be-sample",
     "apps/fe-sample",
     "apps/swagger",
-    "libs/pets"
+    "libs/pets",
+    "libs/pets-orval"
   ],
   "compilerOptions": {
     "lib": [
@@ -20,6 +21,7 @@
   "imports": {
     "@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
     "@eslint/js": "npm:@eslint/js@^9.13.0",
+    "@faker-js/faker": "npm:@faker-js/faker@^9.1.0",
     "@hono/hono": "jsr:@hono/hono@^4.6.7",
     "@hono/swagger-ui": "npm:@hono/swagger-ui@^0.4.1",
     "@kubb/core": "npm:@kubb/core@3.0.0-beta.10",

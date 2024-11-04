@@ -1,0 +1,9 @@
+{
+    "name": "@libs/pets-orval",
+    "version": "1.0.0",
+    "exports": "./gen/index.ts",
+    "tasks": {
+      "gen:pets-orval": "deno run -A npm:orval --config ./orval.config.ts"
+    }
+  }
+  
